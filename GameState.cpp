@@ -3,7 +3,7 @@
 #include "globals.h"
 #include "GameState.h"
 
-// ECE244 Student: add you code below
+
 //constructor
 GameState::GameState(){
     // The constructor. It initializes:
