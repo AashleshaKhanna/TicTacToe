@@ -44,12 +44,12 @@ int main() {
         game_state.set_selectedColumn(col);   
         // Call playMove
         
-        // ECE244 Student: add your code here
+        
         playMove(game_state);
             
         // Print the GameState object, as prescribed in the handout
             
-        // ECE244 Student: add your code here
+        
         cout<<"Selected row "<<game_state.get_selectedRow()<<" and column "<<game_state.get_selectedColumn()<<endl;
         cout<<"Game state after playMove:"<<endl;
         cout<<"Board:"<<endl;
