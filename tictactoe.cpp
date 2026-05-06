@@ -1,3 +1,16 @@
+//
+//  main.cpp
+//  TicTacTo
+//
+//  Created by Tarek Abdelrahman on 2019-06-07.
+//  Modified by Tarek Abdelrahman on 2020-09-17.
+//  Copyright © 2019-2020 Tarek Abdelrahman. All rights reserved.
+//
+//  Permission is hereby granted to use this code in ECE244 at
+//  the University of Toronto. It is prohibited to distribute
+//  this code, either publicly or to third parties.
+//
+//  ECE244 Student: Complete the skeletal code of the main function in this file
 
 
 #include <iostream>
@@ -44,12 +57,12 @@ int main() {
         game_state.set_selectedColumn(col);   
         // Call playMove
         
-        
+        // ECE244 Student: add your code here
         playMove(game_state);
             
         // Print the GameState object, as prescribed in the handout
             
-        
+        // ECE244 Student: add your code here
         cout<<"Selected row "<<game_state.get_selectedRow()<<" and column "<<game_state.get_selectedColumn()<<endl;
         cout<<"Game state after playMove:"<<endl;
         cout<<"Board:"<<endl;
